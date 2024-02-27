@@ -4,9 +4,9 @@ public class Alumno {
     private String nombre;
     private String apellido;
     private Integer nroExamen;
-    private Integer nota; /// númerico>=0 <=10
+    private Double nota; /// númerico>=0 <=10
 
-    public Alumno(String nombre, String apellido, Integer nroExamen, Integer nota) {
+    public Alumno(String nombre, String apellido, Integer nroExamen, Double nota) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.nroExamen = nroExamen;
@@ -37,11 +37,11 @@ public class Alumno {
         this.nroExamen = nroExamen;
     }
 
-    public Integer getNota() {
+    public Double getNota() {
         return nota;
     }
 
-    public void setNota(Integer nota) {
+    public void setNota(Double nota) {
         this.nota = nota;
     }
 
@@ -50,5 +50,5 @@ public class Alumno {
         return "Alumno [nombre=" + nombre + ", apellido=" + apellido + ", nroExamen=" + nroExamen + ", nota=" + nota
                 + "]";
     }
-    
+
 }
