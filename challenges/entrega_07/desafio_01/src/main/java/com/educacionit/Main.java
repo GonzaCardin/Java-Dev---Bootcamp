@@ -8,9 +8,11 @@ public class Main {
         System.out.println("Bienvenidos al sistema de control de notas de la escuela primara XYZ");
         try (Scanner scan = new Scanner(System.in)) {
             System.out.print("Por favor, ingrese la cantidad de alumnos a procesar: ");
-            Integer cantidadAlumos = scan.nextInt();
-            ManejoDeAlumnos sistema = new ManejoDeAlumnos(cantidadAlumos);
-
+            Integer cantidadAlumnos = scan.nextInt();
+            ManejoDeAlumnos sistema = new ManejoDeAlumnos(cantidadAlumnos);
+            for(int i = 0; i < cantidadAlumnos ; i++){
+                
+            }
             
         }catch(InputMismatchException e){
             System.out.println("No ingreso un valor númerico. Por favor ingrese nuevamente.");
