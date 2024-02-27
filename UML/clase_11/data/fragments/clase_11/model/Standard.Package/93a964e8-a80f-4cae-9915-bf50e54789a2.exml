@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Ejercicio_02" version="4">
+  <OBJECT>
+    <ID name="Ejercicio_02" mc="Standard.Package" uid="93a964e8-a80f-4cae-9915-bf50e54789a2"/>
+    <PID name="clase_11" mc="Standard.Package" uid="1ea333a9-0530-4f16-94be-8c55a83d69ab"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Ejercicio_02]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Usuario" mc="Standard.Actor" uid="78508417-cd75-4618-8eef-3a48a4d6a788"/>
+        <COMPID name="Consultar valores" mc="Standard.UseCase" uid="d9fa9248-700e-4a5e-af56-46d6c5869a06"/>
+        <COMPID name="Marcar valores" mc="Standard.UseCase" uid="0444f993-987b-472c-a60b-9b90ed0302e4"/>
+        <COMPID name="Conexión periódica / Evento Temporal" mc="Standard.Actor" uid="e06a68eb-a888-4073-a5da-c649581e00c6"/>
+        <COMPID name="Obtener cotizaciones" mc="Standard.UseCase" uid="7f03b4db-b3ae-4489-9aa7-f0d7bcce7e61"/>
+        <COMPID name="Servidor de Cotizaciones" mc="Standard.Actor" uid="5ead67bb-938a-4888-8a4a-7ac5c2e6dcff"/>
+        <COMPID name="Informar variacion" mc="Standard.UseCase" uid="2fec059b-f404-4989-9367-d7e3de090eb7"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Ejercicio_02" mc="Standard.UseCaseDiagram" uid="b8d4b048-475f-46c0-99f1-a73a5324b767"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

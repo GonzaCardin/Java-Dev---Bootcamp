@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Ejercicio_03" version="4">
+  <OBJECT>
+    <ID name="Ejercicio_03" mc="Standard.Package" uid="8eb6e5cd-6ad5-4fd3-a120-0c8a897715db"/>
+    <PID name="clase_11" mc="Standard.Package" uid="1ea333a9-0530-4f16-94be-8c55a83d69ab"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Ejercicio_03]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Usuario" mc="Standard.Actor" uid="db6acd09-78c8-4618-8966-64b10254ef60"/>
+        <COMPID name="Manager" mc="Standard.Actor" uid="ed18bf6e-3a87-4b75-bead-a87a3b752b73"/>
+        <COMPID name="Moderador" mc="Standard.Actor" uid="8fc85d92-775a-4038-b359-fc7279797e0a"/>
+        <COMPID name="Entrar a sala" mc="Standard.UseCase" uid="5267c298-56d8-48dc-9c21-962399f4ca5c"/>
+        <COMPID name="Salir de sala" mc="Standard.UseCase" uid="57315b25-ae2a-4505-997e-7912d65b7df7"/>
+        <COMPID name="Planificar sala" mc="Standard.UseCase" uid="1f724b5a-5f2e-4fc1-91cf-1446fb8400e1"/>
+        <COMPID name="Designar moderador" mc="Standard.UseCase" uid="f73d9560-4195-4473-8ea8-fcc7b0106dde"/>
+        <COMPID name="Concluir sala " mc="Standard.UseCase" uid="bf29b214-1b63-4aef-a332-2d4081be2d60"/>
+        <COMPID name="Turnos de palbra" mc="Standard.UseCase" uid="2b9573da-d26e-40ba-9bb2-7c0819e9b72c"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Ejercicio_03" mc="Standard.UseCaseDiagram" uid="40cc94f7-47dc-48c8-b680-91c94725914c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

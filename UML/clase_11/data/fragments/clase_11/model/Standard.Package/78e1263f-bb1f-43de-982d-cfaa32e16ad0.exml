@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Ejercicio_05" version="4">
+  <OBJECT>
+    <ID name="Ejercicio_05" mc="Standard.Package" uid="78e1263f-bb1f-43de-982d-cfaa32e16ad0"/>
+    <PID name="clase_11" mc="Standard.Package" uid="1ea333a9-0530-4f16-94be-8c55a83d69ab"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Ejercicio_05]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Veterinario" mc="Standard.Actor" uid="4856749a-1af9-4a17-9165-6b399344b222"/>
+        <COMPID name="Auxiliar" mc="Standard.Actor" uid="4bfbd5f0-3801-4fb2-a3e0-746c248787c3"/>
+        <COMPID name="Cliente" mc="Standard.Actor" uid="fb255a7b-8aa4-4038-affe-2ad029c30f8b"/>
+        <COMPID name="Gestionar Clientes" mc="Standard.UseCase" uid="5f9523b5-d608-43a5-abae-9dfcdcfa2bf9"/>
+        <COMPID name="Gestionar Mascotas" mc="Standard.UseCase" uid="1515729f-e5f6-4341-bd8c-dd8bba475d65"/>
+        <COMPID name="Agregar Cliente" mc="Standard.UseCase" uid="402421d0-f581-4fd1-90d9-4a637f28a0ca"/>
+        <COMPID name="Eliminar Cliente" mc="Standard.UseCase" uid="8a2afa33-3013-40a2-aae3-16095cd86f0e"/>
+        <COMPID name="Modificar Cliente" mc="Standard.UseCase" uid="0ff2f8ab-da12-4786-9879-b88aa1a414aa"/>
+        <COMPID name="Agregar Mascota" mc="Standard.UseCase" uid="c14dbf1e-83e2-44f6-ab73-3ef1c61e9dd6"/>
+        <COMPID name="Eliminar Mascota" mc="Standard.UseCase" uid="29dfeb7d-77b1-4b6c-91e2-cdf834a9a672"/>
+        <COMPID name="Modificar Mascota" mc="Standard.UseCase" uid="522c591f-16a0-4df4-a180-3885b5335433"/>
+        <COMPID name="Cambiar Dueño de Mascota" mc="Standard.UseCase" uid="a593c4cb-0067-427b-a902-8df18a0a8929"/>
+        <COMPID name="Registro de Mascotas" mc="Standard.Actor" uid="4fbf0d41-ffc1-4d86-b4da-299ed2f82c37"/>
+        <COMPID name="Comprobar registro de Mascota" mc="Standard.UseCase" uid="be0b637f-9c67-440c-b58a-655b1b2d34f7"/>
+        <COMPID name="Iniciar Consulta" mc="Standard.UseCase" uid="c2dee3b5-2196-44c3-9589-278e776c31d7"/>
+        <COMPID name="Finalizar Consulta" mc="Standard.UseCase" uid="34d1f3b5-116f-46f6-b532-cfe5c0e90985"/>
+        <COMPID name="Almacenar Datos de Consulta" mc="Standard.UseCase" uid="7b740d22-9dc0-42c5-a117-231de153552b"/>
+        <COMPID name="Acceder estado de Mascota" mc="Standard.UseCase" uid="8310dd04-76b9-4e0a-8dec-5b77af4630ea"/>
+        <COMPID name="Consultas Clientes" mc="Standard.UseCase" uid="571f520a-edb6-445e-91f6-2f8594831a0c"/>
+        <COMPID name="Consulta Mascotas" mc="Standard.UseCase" uid="0b89c184-55b8-4f6c-89da-9cc49df3bd71"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Ejercicio_05 Use Case diagram" mc="Standard.UseCaseDiagram" uid="b354e37a-1226-4562-ac52-88204c62e149"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

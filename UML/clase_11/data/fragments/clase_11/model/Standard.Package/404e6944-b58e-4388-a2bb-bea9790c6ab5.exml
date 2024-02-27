@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Ejercicio_04" version="4">
+  <OBJECT>
+    <ID name="Ejercicio_04" mc="Standard.Package" uid="404e6944-b58e-4388-a2bb-bea9790c6ab5"/>
+    <PID name="clase_11" mc="Standard.Package" uid="1ea333a9-0530-4f16-94be-8c55a83d69ab"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Ejercicio_04]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Jugador 1" mc="Standard.Actor" uid="21fd2c35-c820-4c08-84e3-f0888d93bcee"/>
+        <COMPID name="Jugador 2" mc="Standard.Actor" uid="f7e7bef9-ed89-465a-85f9-271ab3b412ac"/>
+        <COMPID name="Conectarse a partida" mc="Standard.UseCase" uid="b37ca301-3293-4854-9fe4-e8e74d9a1208"/>
+        <COMPID name="Crear nueva partida" mc="Standard.UseCase" uid="563d7127-8a5b-469b-bb24-c242b3c43a27"/>
+        <COMPID name="Jugar" mc="Standard.UseCase" uid="770049c1-aa64-40df-8259-d30aa9740d88"/>
+        <COMPID name="Manejar nave" mc="Standard.UseCase" uid="79a09f95-b20f-4184-ac69-2aa25da5e546"/>
+        <COMPID name="Disparar" mc="Standard.UseCase" uid="9bca09d2-bee7-4ae0-b495-d766713036ba"/>
+        <COMPID name="Terminar la partida" mc="Standard.UseCase" uid="3a882083-8a43-4c39-b97e-21b38f2eb8da"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Ejercicio_04" mc="Standard.UseCaseDiagram" uid="8317b7af-4ce7-4a00-8b9b-3bcfb9122d9e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

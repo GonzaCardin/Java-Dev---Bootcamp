@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="clase_07" version="4">
+  <OBJECT>
+    <ID name="clase_07" mc="Standard.Package" uid="13df47bf-8156-421a-bdbf-12e8d9ecdb79"/>
+    <PID name="clase_07" mc="Standard.Project" uid="be841e4b-7832-4601-b80c-6d0f61b7230e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[clase_07]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ScientificArticle" mc="Standard.Class" uid="97565308-d123-499f-833a-aa5957f386c7"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="clase_07 Class diagram" mc="Standard.ClassDiagram" uid="db0071ad-48a8-4164-bc41-bfa9578de0e9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

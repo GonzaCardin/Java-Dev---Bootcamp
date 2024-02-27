@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Ejercicio_01" version="4">
+  <OBJECT>
+    <ID name="Ejercicio_01" mc="Standard.Package" uid="f0bcf2cc-6be2-4491-8082-0a20ba234d5e"/>
+    <PID name="clase_11" mc="Standard.Package" uid="1ea333a9-0530-4f16-94be-8c55a83d69ab"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Ejercicio_01]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Funcionario" mc="Standard.Actor" uid="8f2e0ccc-85e6-4540-8481-92f4bc298cbf"/>
+        <COMPID name="Registrador" mc="Standard.Actor" uid="9792a4e2-3b84-450e-a790-7dda7c1a2870"/>
+        <COMPID name="Suscribirse a avisos de normativa" mc="Standard.UseCase" uid="8b7638b4-e442-4603-8a2f-e951a626e68c"/>
+        <COMPID name="Consultar Normativas" mc="Standard.UseCase" uid="243012b7-8ec9-4cca-bce7-2001ab18feae"/>
+        <COMPID name="Detalle de una normativa" mc="Standard.UseCase" uid="a95ab447-1f53-4d58-881d-dd1e13782ebe"/>
+        <COMPID name="Acceder al sistema" mc="Standard.UseCase" uid="a568573d-a718-4238-9e59-f20318e8fcc2"/>
+        <COMPID name="Registrar normativa" mc="Standard.UseCase" uid="7d4ad961-a21c-4bf2-9aa4-7c07404f413c"/>
+        <COMPID name="Borrar normativa" mc="Standard.UseCase" uid="1f0c75a6-cf75-4f61-af1d-5400fa900ffa"/>
+        <COMPID name="Reemplzar normativa" mc="Standard.UseCase" uid="89f538b0-140c-4cb6-8711-7efb58fc286a"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Ejercicio_01" mc="Standard.UseCaseDiagram" uid="25cc165e-f362-4fae-9734-9f8639cbafe3"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

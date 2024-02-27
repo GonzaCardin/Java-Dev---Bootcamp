@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="clase_11" version="4">
+  <OBJECT>
+    <ID name="clase_11" mc="Standard.Package" uid="1ea333a9-0530-4f16-94be-8c55a83d69ab"/>
+    <PID name="clase_11" mc="Standard.Project" uid="b0d26b97-ff40-4ddf-a159-4904519121e0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[clase_11]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Ejercicio_01" mc="Standard.Package" uid="f0bcf2cc-6be2-4491-8082-0a20ba234d5e"/>
+        <COMPID name="Ejercicio_02" mc="Standard.Package" uid="93a964e8-a80f-4cae-9915-bf50e54789a2"/>
+        <COMPID name="Ejercicio_03" mc="Standard.Package" uid="8eb6e5cd-6ad5-4fd3-a120-0c8a897715db"/>
+        <COMPID name="Ejercicio_04" mc="Standard.Package" uid="404e6944-b58e-4388-a2bb-bea9790c6ab5"/>
+        <COMPID name="Ejercicio_05" mc="Standard.Package" uid="78e1263f-bb1f-43de-982d-cfaa32e16ad0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
