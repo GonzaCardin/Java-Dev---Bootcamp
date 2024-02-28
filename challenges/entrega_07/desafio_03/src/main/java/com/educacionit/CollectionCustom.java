@@ -39,5 +39,9 @@ public class CollectionCustom<T> {
     public void removeAll(T element){
         
     }
+    public boolean empty(){
+       
+        return false;
+    }
     
 }
