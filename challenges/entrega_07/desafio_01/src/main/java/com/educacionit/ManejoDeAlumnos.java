@@ -27,7 +27,7 @@ public class ManejoDeAlumnos {
     public void mostrarAlumno() {
         System.out.println(listaAlumnos);
     }
-
+    ///No funciona nada
     public Alumno mostrarNotaAlta() {
         double nota = 0;
         Alumno aux = new Alumno(null, null, null, null);
