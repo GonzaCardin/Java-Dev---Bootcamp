@@ -28,52 +28,57 @@ public class ManejoDeAlumnos {
         System.out.println(listaAlumnos);
     }
 
-    /// No funciona nada
     public void mostrarNotaAlta() {
-        double nota = 0;
-        Alumno aux = null;
-        for (int i = 0; i < listaAlumnos.size(); i++) {
-            if (listaAlumnos.get(i).getNota() > nota) {
-                nota = listaAlumnos.get(i).getNota();
-                aux = listaAlumnos.get(i);
+        Alumno alumnoNotaAlta = null;
+        Alumno aux =null;
+        Double notaAlta = 0.0;
+        for (int i = 0; i < cantidadAlumnos; i++) {
+            aux = listaAlumnos.get(i);
+            ArrayList<Double> notas = aux.getNotas();
+            for (int j = 0; j < aux.getNroExamen(); j++) {
+                if (notaAlta < notas.get(j)) {
+                    notaAlta = notas.get(j);
+                    alumnoNotaAlta = aux;
+                }
             }
         }
-        if (aux != null) {
-            System.out.println("Alumno con nota más alta: " + aux);
-        }
+        System.out.println("El alumno con la calificación más alta [ " + notaAlta + " ] es : " + alumnoNotaAlta);
     }
 
     public void mostrarNotaBaja() {
-        double nota = 10.0d;
-        Alumno aux = null;
-        for (int i = 0; i < listaAlumnos.size(); i++) {
-            if (listaAlumnos.get(i).getNota() < nota) {
-                nota = listaAlumnos.get(i).getNota();
-                aux = listaAlumnos.get(i);
+        Alumno alumnoNotaBaja = null;
+        Double notaBaja = 10.0;
+        for (int i = 0; i<cantidadAlumnos;i++) {
+            ArrayList<Double> notas = listaAlumnos.get(i).getNotas();
+            for (int j = 0; j< notas.size();j++) {
+                if (notaBaja > notas.get(j)) {
+                    notaBaja = notas.get(j); 
+                    alumnoNotaBaja = listaAlumnos.get(i);  
+                }
             }
         }
-        if (aux != null) {
-            System.out.println("Alumno con nota más baja: " + aux);
-        }
+        System.out.println("El alumno con la calificación más baja [ " + notaBaja + " ] es : " + alumnoNotaBaja);
     }
 
-    public ArrayList<Alumno> alumnosPromocionados() {
-        ArrayList<Alumno> promocionados = new ArrayList<>();
-        for (int i = 0; i < listaAlumnos.size(); i++) {
-            if (listaAlumnos.get(i).getNota() >= 7) {
+    public void alumnosPromocionados() {
+        ArrayList<Alumno>promocionados = new ArrayList<>();
+        for (int i = 0; i < cantidadAlumnos; i++) {
+            if(listaAlumnos.get(i).getPromedio() >= 7.0){
                 promocionados.add(listaAlumnos.get(i));
             }
         }
-        return promocionados;
+        System.out.println("Lista de Alumnos Promocionados: ");
+        System.out.println(promocionados);
     }
 
-    public ArrayList<Alumno> alumnosParaRecursar() {
-        ArrayList<Alumno> recursantes = new ArrayList<>();
-        for (int i = 0; i < listaAlumnos.size(); i++) {
-            if (listaAlumnos.get(i).getNota() < 7) {
+    public void alumnosParaRecursar() {
+        ArrayList<Alumno>recursantes = new ArrayList<>();
+        for (int i = 0; i < cantidadAlumnos; i++) {
+            if(listaAlumnos.get(i).getPromedio() < 7.0){
                 recursantes.add(listaAlumnos.get(i));
             }
         }
-        return recursantes;
+        System.out.println("Lista de Alumnos a Recursar: ");
+        System.out.println(recursantes);
     }
 }
