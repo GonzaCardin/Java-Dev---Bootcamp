@@ -45,7 +45,7 @@ public class CollectionCustom<T> {
         for (int i = 0; i < index; i++) {
             if (array[i].equals(element)) {
                 T removed = array[i];
-                for (int j = 0; j < index - 1; j++) {
+                for (int j = i; j < (index - 1); j++) {
                     array[j] = array[j + 1];
                 }
                 array[index - 1] = null;
@@ -59,10 +59,11 @@ public class CollectionCustom<T> {
     public void removeAll(T element) {
         for (int i = 0; i < index; i++) {
             if (array[i].equals(element)) {
-                for (int j = 0; j < index - 1; j++) {
+                for (int j = i; j < (index - 1); j++) {
                     array[j] = array[j + 1];
                 }
                 array[index - 1] = null;
+                index--;
                 i--;
             }
         }
@@ -78,6 +79,7 @@ public class CollectionCustom<T> {
                 System.err.print(" - ");
             }
         }
-        System.err.print("]");
+        System.out.print("] \n");
+        
     }
 }
