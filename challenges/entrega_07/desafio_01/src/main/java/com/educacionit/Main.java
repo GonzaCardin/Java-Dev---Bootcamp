@@ -17,7 +17,7 @@ public class Main {
                 String apellido = scan.next();
                 System.out.println("Ingrese Número del Exámen: ");
                 Integer nroExamen = scan.nextInt();
-                System.out.println("Ingrese nota del Exámen: ");
+                System.out.println("Ingrese nota del Exámen(0-10): ");
                 Double nota = scan.nextDouble();
 
                 Alumno a = new Alumno(nombre, apellido, nroExamen, nota);
@@ -25,15 +25,16 @@ public class Main {
             }
             System.out.println("Lista de Alumnos: ");
             sistema.mostrarAlumno();
-
+            
+            
             System.out.println("Lista de Alumnos Promocionados: ");
             System.out.println(sistema.alumnosPromocionados());
 
             System.out.println("Lista de Alumnos Recursantes: ");
             System.out.println(sistema.alumnosParaRecursar());
 
-            System.out.println("Alumnos con nota más alta: " + sistema.mostrarNotaAlta());
-            System.out.println("Alumnos con nota más baja: " + sistema.mostrarNotaBaja());
+            sistema.mostrarNotaAlta();
+            sistema.mostrarNotaBaja();
 
 
         } catch (InputMismatchException e) {

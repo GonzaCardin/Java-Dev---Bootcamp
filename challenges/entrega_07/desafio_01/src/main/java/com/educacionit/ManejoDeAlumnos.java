@@ -27,29 +27,34 @@ public class ManejoDeAlumnos {
     public void mostrarAlumno() {
         System.out.println(listaAlumnos);
     }
-    ///No funciona nada
-    public Alumno mostrarNotaAlta() {
+
+    /// No funciona nada
+    public void mostrarNotaAlta() {
         double nota = 0;
-        Alumno aux = new Alumno(null, null, null, null);
+        Alumno aux = null;
         for (int i = 0; i < listaAlumnos.size(); i++) {
             if (listaAlumnos.get(i).getNota() > nota) {
                 nota = listaAlumnos.get(i).getNota();
                 aux = listaAlumnos.get(i);
             }
         }
-        return aux;
+        if (aux != null) {
+            System.out.println("Alumno con nota más alta: " + aux);
+        }
     }
 
-    public Alumno mostrarNotaBaja() {
-        double nota = 10.00d;
-        Alumno aux = new Alumno(null, null, null, null);
+    public void mostrarNotaBaja() {
+        double nota = 10.0d;
+        Alumno aux = null;
         for (int i = 0; i < listaAlumnos.size(); i++) {
             if (listaAlumnos.get(i).getNota() < nota) {
                 nota = listaAlumnos.get(i).getNota();
                 aux = listaAlumnos.get(i);
             }
         }
-        return aux;
+        if (aux != null) {
+            System.out.println("Alumno con nota más baja: " + aux);
+        }
     }
 
     public ArrayList<Alumno> alumnosPromocionados() {
