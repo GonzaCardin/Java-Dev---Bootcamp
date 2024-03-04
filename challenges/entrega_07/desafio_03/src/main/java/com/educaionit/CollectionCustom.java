@@ -20,7 +20,7 @@ public class CollectionCustom<T> {
 
     public void addFirst(T element) {
         if (index >= size) {
-            /// no se pude esta llena
+            System.out.println("La coleccion esta llena");
         }
         for (int i = index; i > 0; i--) {
             array[i] = array[i - 1];
@@ -31,7 +31,7 @@ public class CollectionCustom<T> {
 
     public void addLast(T element) {
         if (index >= size) {
-            /// esta llena
+            System.out.println("La coleccion esta llena.");
         }
         array[index] = element;
         index++;
