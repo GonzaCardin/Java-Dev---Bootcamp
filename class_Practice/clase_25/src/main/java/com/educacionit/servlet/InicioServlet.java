@@ -1,6 +1,7 @@
 package com.educacionit.servlet;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -23,8 +24,16 @@ public class InicioServlet extends HttpServlet {
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        // TODO
-        response.getWriter().append("Served at: ").append(request.getContextPath());
+       ///response.getWriter().append("Served at: ").append(request.getContextPath());
+       PrintWriter printWriter  = response.getWriter();
+       printWriter.append(
+       "<html>" +
+       "<body>" +
+       "<h2>Inicio Servlet</h2>" +
+       "</body>" +
+       "</html>");
+
+
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
