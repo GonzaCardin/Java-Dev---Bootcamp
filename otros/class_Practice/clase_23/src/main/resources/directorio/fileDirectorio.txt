@@ -1,0 +1,2 @@
+Este un archivo de prueba
+para un file en un directorio.
