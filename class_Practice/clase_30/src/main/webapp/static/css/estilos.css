@@ -1,0 +1,70 @@
+body {
+    background-color: azure;
+}
+
+section {
+    background-color: antiquewhite;
+    color: aquamarine;
+}
+
+section h1 {
+    color: red;
+    font-weight: bold;
+    font-style: oblique;
+
+}
+
+h1,
+h3 {
+    color: blue;
+}
+
+footer p {
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: brown;
+    text-align: center;
+}
+
+h4 {
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+img{
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    margin-left: 200px;
+    margin-top: 15px;
+    padding: 100px;
+}
+.css-seccion-1 {
+    font-size: 24px;
+}
+
+.css-seccion-2 {
+    font-size: 32px;
+    color: blue;
+}
+
+/*Pasamos el mouse sobre el link*/
+a:hover {
+    color: yellow;
+}
+
+/*Cuando aun nohemos visitado el link*/
+a:link {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+/*Cuando hemos visitado el link*/
+a:visited {
+    color: #5f9ea0;
+}
+
+/*Cuando hacemos click en el vinculo*/
+a:active {
+    color: blueviolet;
+}
