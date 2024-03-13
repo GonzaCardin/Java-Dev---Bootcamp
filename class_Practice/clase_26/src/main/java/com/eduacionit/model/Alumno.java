@@ -33,5 +33,6 @@ public class Alumno {
     public String toString() {
         return "Alumno [legajo=" + legajo + ", nombre=" + nombre + ", edad=" + edad + "]";
     }
+   
     
 }
