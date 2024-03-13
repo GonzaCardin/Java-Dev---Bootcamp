@@ -22,35 +22,21 @@ public class InicioServlet extends HttpServlet {
         // TODO
     }
 
-    /**
-     * @see Httpservlet#doGet(HttpServletRequest request, HttpServletResponse
-     *      response)
-     */
+    @SuppressWarnings("unchecked")
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        /*
-         * PrintWriter printWriter = response.getWriter();
-         * printWriter.append(
-         * "<html>" +
-         * "<body>" +
-         * "<h2>Inicio Servlet</h2>" +
-         * "</body>" +
-         * "</html>");
-         */
 
-        List<Alumno> alumnos = new ArrayList<>();
-        alumnos.add(new Alumno(1000, "Gonzalo", 22));
-        alumnos.add(new Alumno(1001, "Luis", 25));
-        alumnos.add(new Alumno(1002, "Cristian", 27));
+        // Get the list of alumnos from the session
+        HttpSession session = request.getSession(true);
+        List<Alumno> alumnos = (List<Alumno>) session.getAttribute("listaAlumnos");
 
-        /// session.getAttribute("nombre atributo");
-        /// session.setAttribute("nombre de atributo", objeto);
+        // Create a new list of alumnos if the session attribute is null
+        if (alumnos == null) {
+            alumnos = new ArrayList<>();
+            session.setAttribute("listaAlumnos", alumnos);
+        }
 
-        /// Guardo mi lista en la session
-        HttpSession session = request.getSession();
-        session.setAttribute("listaAlumnos", alumnos);
-
-        /// Forward
+        // Forward to the list of alumnos page
         request.getRequestDispatcher("listado_alumnos.jsp").forward(request, response);
     }
 
