@@ -13,4 +13,5 @@
     <servlet-name>InicioServlet</servlet-name>
     <url-pattern>/InicioServlet</url-pattern>
   </servlet-mapping>
+  
 </web-app>

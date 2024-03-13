@@ -12,7 +12,6 @@ import javax.servlet.http.HttpSession;
 
 import com.eduacionit.model.Alumno;
 
-
 public class InicioServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
