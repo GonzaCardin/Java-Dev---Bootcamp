@@ -106,6 +106,6 @@ public class Lambdas {
 
     public void ejercicio_18() {
         BiFunction<Integer, Integer, Integer> modulo = (n1, n2) -> n1 % n2;
-        System.out.println("Módulo de dos números: " + modulo.apply(4, 2));
+        System.out.println("Módulo de dos números: " + modulo.apply(14, 3));
     }
 }
