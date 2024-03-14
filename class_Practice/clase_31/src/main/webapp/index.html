@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+
+<head>
+    <title>Clase 31</title>
+    <script type="text/javascript">
+        var unaVariable = "Soy una variable";
+        var otraVariable;
+        console.log("Una Variable: " + unaVariable);
+        console.log("Otra Variable: " + otraVariable);
+        ///alert("Atento!!");
+        ///var nombre = window.prompt("Cual es tu nombre:", "Debe ingresar un nombre...");
+        ///console.log("El usuario se llama " + nombre);
+        ///document.write("Hola " + nombre);
+        var confirmacion = window.confirm("Usted se llama " + nombre + " ?");
+        console.log("Confirmacion: " + confirmacion);
+
+        var miFecha = new Date();
+        console.log("Fecha: " + miFecha);
+
+        var numero = 19;
+        console.assert(numero > 18, "El número es mayor que 18");
+
+        console.debug("Mensaje de Debug");
+        console.log("Mensaje de log");
+        console.info("Mensaeje de info");
+        console.warn("Mensaje de warn");
+        console.error("Mensaje de error");
+
+        console.count("COUNT");
+        console.count("COUNT");
+        console.count("COUNT");
+        console.count("COUNT 2");
+
+        console.time("Identificador-1");
+        //-----------------------------------
+        console.timeEnd("Identificador-1");
+        console.timeEnd("Identificador-2");
+
+
+        ///----------------------------------------------------------
+        function botonClicked() {
+            var dato,confirmacion;
+            do{
+                dato = window.prompt("Ingrese su dato: ");
+                if(dato != null){
+                    confirmacion = window.confirm("Usted ingreso el siguente dato: " + dato + " ¿Es correcto?");
+                    if(confirmacion = true){
+                        console.log("El dato " + dato + " .Esta confirmado de forma existosa.")
+                    }else{
+                        console.error("El dato "+ dato + ". No fue confirmado");
+                    }
+                }
+            }while(dato != null || !confirmacion);
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <p>Hola Mundo !</p>
+    <script type="text/javascript">
+        document.write("<p>Hola Mundo desde un writer</p>");
+    </script>
+    <button onclick="botonClicked();">Presioname</button>
+</body>
+
+</html>
