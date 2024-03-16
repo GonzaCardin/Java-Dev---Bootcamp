@@ -1,4 +1,4 @@
-package com.educaionit.servlet;
+package com.educacionit.servlet;
 
 import java.io.IOException;
 

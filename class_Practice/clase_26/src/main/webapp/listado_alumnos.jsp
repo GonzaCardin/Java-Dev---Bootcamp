@@ -39,9 +39,9 @@
                                         </tr>
                                     </c:forEach>
                                 </table>
-                                <h3><a href="../java/com/educaionit/servlet/AgregarAlumnoServlet.java">Alta de Alumno</a></h3>
-                                <h3><a href="../java/com/educaionit/servlet/BorrarAlumnoServlet.java">Baja de Alumnos</a></h3>
-                                <h3><a href="../java/com/educaionit/servlet/LimpiarSesionServlet.java">Limpiar Sesion</a></h3>
+                                <h3><a href="../java/com/educacionit/servlet/AgregarAlumnoServlet.java">Alta de Alumno</a></h3>
+                                <h3><a href="../java/com/educacionit/servlet/BorrarAlumnoServlet.java">Baja de Alumnos</a></h3>
+                                <h3><a href="../java/com/educacionit/servlet/LimpiarSesionServlet.java">Limpiar Sesion</a></h3>
 
                                 <hr>
 

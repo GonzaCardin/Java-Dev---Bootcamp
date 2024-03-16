@@ -1,4 +1,4 @@
-package com.educaionit.servlet;
+package com.educacionit.servlet;
 
 import java.io.IOException;
 import java.util.List;
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.eduacionit.model.Alumno;
+import com.educacionit.model.Alumno;
 
 @WebServlet("/borrar_alumno")
 public class BorrarAlumnoServlet extends HttpServlet {

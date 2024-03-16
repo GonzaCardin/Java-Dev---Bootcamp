@@ -1,4 +1,4 @@
-package com.eduacionit.model;
+package com.educacionit.model;
 
 public class Alumno {
     private Integer legajo;
