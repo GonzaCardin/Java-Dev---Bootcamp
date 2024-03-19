@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 31 - Eventos input text</title>
+</head>
+<body>
+    <h1>Eventos de entrada de texto</h1>
+    <label>Nombre </label>
+    <input type="text" id="id_nombre" onechange="edicionDeValor()" onkeypress="presionoUnaTecla()"><br>
+    <label>Edad </label>
+    <input type="text" id="id_edad" onchange="edicionDeValor()" onfocus="mostrarLeyenda()"><br>
+    <p id="id_resultado"></p>
+    <script src="../webapp/js/eventos-inputs.js"></script>
+</body>
+</html>
