@@ -35,10 +35,17 @@ function guardarEdicion() {
     }
 
     ///xhr.open("POST", "http://127.0.0.1:5500/clase_33/src/main/webapp/index.html");
-    xhr.open("POST", "clase_33\src\main\java\com\educacionit\servlet\GuardarAlumnoServlet");
+    xhr.open("POST", "clase_33/src/main/java/com/educacionit/servlet/GuardarAlumnoServlet.java");
 
     /// param1=value1&param2=value2&param3=value3;
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlenc");
     xhr.send("legajo=" + legajoAlta + "&" + "nombre=" + m_nombre + "&" + "edad=" + m_edad);
 
+}
+function buscarAlumno(){
+    var m_legajo = document.getElementById("legajo").value;
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET","BuscarAlumnoServlet?legajo="+m_legajo, false);
+    xhr.send();
 }
