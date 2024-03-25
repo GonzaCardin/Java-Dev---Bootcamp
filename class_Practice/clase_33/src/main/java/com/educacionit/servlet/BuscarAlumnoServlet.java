@@ -15,7 +15,7 @@ import com.educacionit.model.Alumno;
 
 public class BuscarAlumnoServlet extends HttpServlet {
 
-    @SuppressWarnings("unchecked")
+    @SuppressWarnings({ "unchecked", "null" })
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
