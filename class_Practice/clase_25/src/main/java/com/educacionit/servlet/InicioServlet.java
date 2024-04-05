@@ -23,9 +23,12 @@ public class InicioServlet extends HttpServlet {
     }
 
     /**
+     * @param request
+     * @param response
      * @see Httpservlet#doGet(HttpServletRequest request, HttpServletResponse
      *      response)
      */
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         /*
@@ -54,6 +57,7 @@ public class InicioServlet extends HttpServlet {
         request.getRequestDispatcher("listado_alumnos.jsp").forward(request, response);
     }
 
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         // TODO
