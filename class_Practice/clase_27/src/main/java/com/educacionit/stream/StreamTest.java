@@ -29,32 +29,37 @@ public class StreamTest {
         // Sorted
         System.out.println("Método Sorted");
         names.stream().sorted(Comparator.naturalOrder()).forEach(name -> System.out.println(name));
-        List<String> newList = names.stream().sorted(Comparator.naturalOrder()).collect(Collectors.toList());
+        /// Teniendo una lista, crea una nueva lista ordenado y filtrada
+        List<String> newList = names.stream()
+                .filter(name -> name.contains("s"))
+                .sorted(Comparator.naturalOrder()).collect(Collectors.toList());
         System.out.println(newList);
 
         // Distinc
         names.stream().distinct().forEach(name -> System.out.println("Uniques Values: " + name));
 
-        //Limit
+        // Limit
         names.stream().limit(2).forEach(name -> System.out.println("Limit to 2: " + name));
 
-        //Funciones terminales
+        // Funciones terminales
 
-        //Count
+        // Count
         long cantidadElementos = names.stream().count();
         System.out.println("Cantidad Elementos: " + cantidadElementos);
-        ///Count + Filter
-        long cantidadElementosFiletr = names.stream().filter(name->name.contains("a")).count();
-        System.out.println("Cantidad de elementos luego de filtrar mediante la subcadena 'a': " + cantidadElementosFiletr);
+        /// Count + Filter
+        long cantidadElementosFiletr = names.stream().filter(name -> name.contains("a")).count();
+        System.out.println(
+                "Cantidad de elementos luego de filtrar mediante la subcadena 'a': " + cantidadElementosFiletr);
 
-        //Reduce
-        String str = names.stream().reduce("Nombres: ", (a,b)-> a +" "+ b );
+        // Reduce
+        String str = names.stream().reduce("Nombres: ", (a, b) -> a + " " + b);
         System.out.println(str);
-        
+
         List<Integer> listaEnteros = new ArrayList<>();
         listaEnteros.add(1);
         listaEnteros.add(2);
         listaEnteros.add(3);
+        listaEnteros.add(4);
 
         Integer salidaEnteros = listaEnteros.stream().reduce(0, (a, b) -> a + b);
         System.out.println("Reduce Enteros: " + salidaEnteros);
@@ -62,7 +67,5 @@ public class StreamTest {
         salidaEnteros = listaEnteros.stream().reduce(100, (a, b) -> a - b);
         System.out.println("Reduce Enteros: " + salidaEnteros);
 
-        
-        
     }
 }
