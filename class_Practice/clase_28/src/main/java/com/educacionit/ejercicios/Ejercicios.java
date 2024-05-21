@@ -43,7 +43,8 @@ public class Ejercicios {
     public void ejercicio_04() {
         /// 4. Encontrar el máximo valor en una lista de enteros.
 
-        int maximo = numbers.stream().max((a, b) -> a.compareTo(b)).orElse(0);
+        int maximo = numbers.stream()
+        .max((a, b) -> a.compareTo(b)).orElse(0);
         System.out.println("Valor Máximo: " + maximo);
 
     }
@@ -56,7 +57,7 @@ public class Ejercicios {
     }
 
     public void ejercicio_06() {
-        /// 5. Sumar todos los elementos de una lista de enteros.
+        /// 5. Son todos los números mayores a 5.
         boolean mayores = numbers.stream()
                 .allMatch(number -> number > 5);
         System.out.println("Son todos mayores a 5?  " + mayores);
