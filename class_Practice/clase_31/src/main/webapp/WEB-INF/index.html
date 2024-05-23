@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de JavaScript</title>
+    <script src="../js/script.js" defer></script>
+</head>
+<body onload="mostrarFecha(); mostrarReloj();">
+    <h1>Ejercicios de JavaScript</h1>
+
+    <!-- Ejercicio 1 -->
+    <button onclick="ConteoClicks()">Contar Clicks</button>
+    <p id="clicks">Clicks: 0</p>
+
+    <!-- Ejercicio 2 -->
+    <h2>Validación de Inputs</h2>
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="email" id="email" placeholder="Email">
+    <button onclick="Validacion()">Validar</button>
+    <p id="resultado"></p>
+
+    <!-- Ejercicio 3 -->
+    <h2>Modificar Texto</h2>
+    <input type="text" id="texto" placeholder="Ingrese un texto">
+    <button onclick="ModificarTexto()">Modificar Texto</button>
+    <p id="parrafo">Texto a ser modificado</p>
+
+    <!-- Ejercicio 4 -->
+    <h2>Suma de Números</h2>
+    <input type="number" id="numero_1" placeholder="Número 1">
+    <input type="number" id="numero_2" placeholder="Número 2">
+    <button onclick="Suma()">Sumar</button>
+    <p id="resultadoSuma"></p>
+
+    <!-- Ejercicio 5 -->
+    <h2>Cambiar Tamaño de Letra</h2>
+    <button onclick="CambiarTamanoLetra()">Cambiar Tamaño de Letra</button>
+
+    <!-- Ejercicio 6 -->
+    <h2>Cambiar Imagen</h2>
+    <img id="imagen" src="https://via.placeholder.com/150" alt="Imagen por defecto">
+    <button onclick="cambiarImagen()">Cambiar Imagen</button>
+
+    <!-- Ejercicio 7 -->
+    <h2>Mostrar Fecha y Hora</h2>
+    <p id="fecha_hora"></p>
+
+    <!-- Ejercicio 8 -->
+    <h2>Cambiar Color de Texto</h2>
+    <p id="parrafo" onmouseover="cambiarColor()">Párrafo para cambiar color</p>
+
+    <!-- Ejercicio 9 -->
+    <h2>Reloj Digital</h2>
+    <p id="reloj"></p>
+
+    <!-- Ejercicio 10 -->
+    <h2>Validación de Contraseña</h2>
+    <input type="password" id="password" placeholder="Ingrese su contraseña">
+    <button onclick="validacionInput()">Validar Contraseña</button>
+    <p id="resultadoPassword"></p>
+</body>
+</html>
