@@ -4,22 +4,26 @@ console.log(arreglo);
 ///--------------------------
 /// Funciones para trabajar al final del arreglo
 ///--------------------------
-
+console.log("Final del arreglo:");
 /// Agregar un elemento
 arreglo.push('G');
+console.log("arreglo con push: " + arreglo);
 
 /// Eliminar un elemento
 arreglo.pop();
+console.log("arreglo con pop:" + arreglo);
 
 /// -------------------------
 /// Funciones para trabajar al inicio del arreglo
 /// -------------------------
-
+console.log("Inicio del arreglo:");
 /// Agregar un elemento 
 arreglo.unshift('J');
+console.log("arreglo con push: " + arreglo);
 
 /// Eliminar un elemento
 arreglo.shift();
+console.log("arreglo con shift:" + arreglo);
 
 /// -------------------------
 /// Funciones para trabajar con valores intermedios
