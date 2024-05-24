@@ -21,7 +21,16 @@ function guardarEdicion() {
             case 4:
                 console.log("guardarEdicion - DONE");
                 if (xhr.status == 200) {
-                    alert("El alumno fue agregado correctamente.")
+                    // alert("El alumno fue agregado correctamente.")
+                    var tabla = document.getElementById("tablaAlumnos");
+                    var fila = tabla.insertRow(-1); // Insert a new row at the end of the table
+                    var celdaLegajo = fila.insertCell(0); // Insert a new cell in the first column of the new row
+                    var celdaNombre = fila.insertCell(1); // Insert a new cell in the second column of the new row
+                    var celdaEdad = fila.insertCell(2); // Insert a new cell in the third column of the new row
+
+                    celdaLegajo.innerHTML = legajo; // Set the content of the cell to the student's legajo
+                    celdaNombre.innerHTML = nombre; // Set the content of the cell to the student's name
+                    celdaEdad.innerHTML = edad; // Set the content of the cell to the student's age
                 } else if (xhr.status == 500) {
                     alert("Se produjo un error. El alumno no fue agregado.")
                 }
