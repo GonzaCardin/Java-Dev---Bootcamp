@@ -15,30 +15,30 @@ import com.educacionit.model.Alumno;
 
 public class BuscarAlumnoServlet extends HttpServlet {
 
-    @SuppressWarnings({ "unchecked", "null" })
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
-            String m_legajo = req.getParameter("legajo");
-            HttpSession session = req.getSession();
-
-            if (m_legajo == null || m_legajo.length() == 0) {
+            String unLegajo = req.getParameter("legajo");
+            if (unLegajo == null || unLegajo.length() == 0) {
                 throw new Exception("El legajo es nulo");
             }
+            HttpSession session = req.getSession(true);
 
+            @SuppressWarnings("unchecked")
             Map<String, Alumno> alumnos = (Map<String, Alumno>) session.getAttribute("listaAlumnos");
+
             if (alumnos == null) {
                 alumnos = new HashMap<String, Alumno>();
                 session.setAttribute("listaAlumnos", alumnos);
             }
+            Alumno unAlumno = alumnos.get(unLegajo);
 
-            Alumno m_alumno = alumnos.get(m_legajo);
-            if (m_alumno != null) {
-                resp.setStatus(HttpServletResponse.SC_NOT_FOUND);
+            if (unAlumno == null) {
+                resp.setStatus(HttpServletResponse.SC_NOT_FOUND); // ->ERROR 404 :)
             } else {
-
-                String respuesta = "{\"Legajo\":\"" + m_alumno.getLegajo() + "\", \"Nombre\":\"" + m_alumno.getNombre()
-                        + "\", \"Edad\": \"" + m_alumno.getEdad() + "\"}";
+                // Encontramos al alumno en nuestra sesion
+                String respuesta = "{\"Legajo\": \"" + unAlumno.getLegajo() + "\",\"Nombre\": \"" + unAlumno.getNombre()
+                        + "\",\"Edad\": \"" + unAlumno.getEdad() + "\"}";
                 PrintWriter w = resp.getWriter();
                 w.print(respuesta);
                 resp.setStatus(HttpServletResponse.SC_OK);
@@ -48,6 +48,7 @@ public class BuscarAlumnoServlet extends HttpServlet {
         } catch (Exception e) {
             resp.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
         }
+
     }
 
 }

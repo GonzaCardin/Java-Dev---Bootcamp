@@ -12,4 +12,12 @@
         <servlet-name>GuardarAlumnoServlet</servlet-name>
         <url-pattern>/GuardarAlumnoServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>BuscarAlumnoServlet</servlet-name>
+        <servlet-class>com.educacionit.servlet.BuscarAlumnoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BuscarAlumnoServlet</servlet-name>
+        <url-pattern>/BuscarAlumnoServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
