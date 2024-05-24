@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA Alumnos</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <main class="container">
+        <h1>SPA Alumnos</h1>
+        <section>
+            <h2>Consulta de Alumno</h2>
+            <label for="inputLegajo">Legajo:</label>
+            <input type="text" id="inputLegajo" placeholder="Legajo">
+            <button onclick="consultarAlumno()">Consultar</button>
+            <p id="resultadoConsulta">-----</p>
+        </section>
+        <section>
+            <h2>Alta de Alumno</h2>
+            <label for="inputLegajo">Nombre:</label>
+              <input type="text" id="inputLegajo" placeholder="Legajo">
+            <label for="inputNombre">Nombre:</label>
+            <input type="text" id="inputNombre" placeholder="Nombre">
+            <label for="inputEdad">Edad:</label>
+            <input type="number" id="inputEdad" placeholder="Edad">
+            <button onclick="altaAlumno()">Dar de Alta</button>
+            <p id="resultadoAlta"></p>
+        </section>
+        <section>
+            <h2>Baja de Alumno</h2>
+            <label for="inputLegajoBaja">Legajo:</label>
+            <input type="text" id="inputLegajoBaja" placeholder="Legajo">
+            <button onclick="bajaAlumno()">Dar de Baja</button>
+            <p id="resultadoBaja"></p>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
