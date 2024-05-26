@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+ <web-app>
+  <servlet>
+    <servlet-name>InicioServlet</servlet-name>
+    <display-name>InicioServlet</display-name>
+    <description></description>
+    <servlet-class>com.educacionit.servlet.InicioServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InicioServlet</servlet-name>
+    <url-pattern>/InicioServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

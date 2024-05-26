@@ -1,0 +1,36 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+input, button {
+    margin: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+#resultadoConsulta, #resultadoAlta, #resultadoBaja {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+input, button {
+    margin: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+#resultadoConsulta, #resultadoAlta, #resultadoBaja {
+    margin-top: 10px;
+    font-weight: bold;
+}
