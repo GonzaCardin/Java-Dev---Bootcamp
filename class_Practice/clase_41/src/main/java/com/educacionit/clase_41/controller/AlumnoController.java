@@ -34,7 +34,7 @@ public class AlumnoController {
     }
 
     @GetMapping("/{legajo}")
-    public ResponseEntity<Alumno> getAlumnoById(@PathVariable("legajo") Integer legajo) {
+    public ResponseEntity<Alumno> getAlumnoById(@PathVariable("legajo") int legajo) {
         Alumno unAlumno = alumnoService.getAlumnoById(legajo);
 
         if (unAlumno == null) {
@@ -51,13 +51,13 @@ public class AlumnoController {
     }
 
     @PutMapping("/{legajo}")
-    public ResponseEntity<Void> updateAlumno(@PathVariable("legajo") Integer legajo, @RequestBody Alumno alumno) {
+    public ResponseEntity<Void> updateAlumno(@PathVariable("legajo") int legajo, @RequestBody Alumno alumno) {
         alumnoService.updateAlumno(legajo, alumno);
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @DeleteMapping("/{legajo}")
-    public ResponseEntity<Void> deleteAlumno(@PathVariable("legajo") Integer legajo) {
+    public ResponseEntity<Void> deleteAlumno(@PathVariable("legajo") int legajo) {
         alumnoService.deleteAlumno(legajo);
         return new ResponseEntity<>(HttpStatus.OK);
     }

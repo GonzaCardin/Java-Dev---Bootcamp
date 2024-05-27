@@ -7,17 +7,19 @@ import org.springframework.stereotype.Repository;
 
 import com.educacionit.clase_41.model.Alumno;
 import com.educacionit.clase_41.repository.AlumnoRepository;
+
 @Repository("alumnoRepository")
 public class AlumnoRepositoryImpl implements AlumnoRepository {
     private List<Alumno> alumnos = new ArrayList<Alumno>();
+
     @Override
     public List<Alumno> findAll() {
         return alumnos;
     }
 
     @Override
-    public Alumno findById(Integer legajo) {
-        return alumnos.stream().filter(a-> a.getLegajo() == legajo).findFirst().orElse(null);
+    public Alumno findById(int legajo) {
+        return alumnos.stream().filter(a -> a.getLegajo() == legajo).findFirst().orElse(null);
     }
 
     @Override
@@ -26,8 +28,8 @@ public class AlumnoRepositoryImpl implements AlumnoRepository {
     }
 
     @Override
-    public void delete(Integer legajo) {
-        alumnos.removeIf(a-> a.getLegajo() == legajo);
+    public void delete(int legajo) {
+        alumnos.removeIf(a -> a.getLegajo() == legajo);
     }
 
 }

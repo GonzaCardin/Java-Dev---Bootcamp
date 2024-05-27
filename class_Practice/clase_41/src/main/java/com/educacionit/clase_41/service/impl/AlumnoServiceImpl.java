@@ -23,7 +23,7 @@ public class AlumnoServiceImpl implements AlumnoService {
     }
 
     @Override
-    public Alumno getAlumnoById(Integer id) {
+    public Alumno getAlumnoById(int id) {
         return alumnoRepository.findById(id);
     }
 
@@ -33,16 +33,16 @@ public class AlumnoServiceImpl implements AlumnoService {
     }
 
     @Override
-    public void updateAlumno(Integer legajo, Alumno alumno) {
+    public void updateAlumno(int legajo, Alumno alumno) {
         Alumno existeAlumno = alumnoRepository.findById(legajo);
-        if(existeAlumno != null){
+        if (existeAlumno != null) {
             existeAlumno.setNombre(alumno.getNombre());
             existeAlumno.setEdad(alumno.getEdad());
         }
     }
 
     @Override
-    public void deleteAlumno(Integer legajo) {
+    public void deleteAlumno(int legajo) {
         alumnoRepository.delete(legajo);
     }
 
