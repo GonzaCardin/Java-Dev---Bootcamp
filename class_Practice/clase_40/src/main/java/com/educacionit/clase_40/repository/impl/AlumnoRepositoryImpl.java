@@ -13,7 +13,7 @@ import com.educacionit.clase_40.repository.AlumnoRepository;
 @Repository("alumnoRepository")
 @Scope("prototype")
 public class AlumnoRepositoryImpl implements AlumnoRepository {
-	private static List<Alumno> alumnos = new ArrayList<>();
+	private static final List<Alumno> alumnos = new ArrayList<>();
 
     public AlumnoRepositoryImpl() {
 		super();
