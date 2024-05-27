@@ -1,28 +1,50 @@
 package com.educacionit.clase_40.controller;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.educacionit.clase_40.model.Alumno;
+import com.educacionit.clase_40.service.AlumnoService;
 
-
-@RestController
+@Controller
 @RequestMapping("/alumnos")
 public class AlumnoController {
 
-    @GetMapping("/metodo1")
-    public String metodo1() {
-        return "vista1";
-    }
-
-    @GetMapping("/metodo2")
-    public ModelAndView metodo2() {
-        ModelAndView mav = new ModelAndView();
-        Alumno alumnoCreado = new Alumno(1000, "Gonzalo", 23);
-        mav.addObject("unAlumno", alumnoCreado);
-        mav.setViewName("vista2");
-        return mav;
-    }
+	@Autowired
+	@Qualifier("alumnoService")
+	private AlumnoService alumnoService;
+	
+	
+	@GetMapping("/consultar-alumnos")
+	public String mostrarTodosLosAlumnos(Model model) {
+		
+		List<Alumno> alumnos = alumnoService.getAll();
+		
+		model.addAttribute("alumnos", alumnos);
+		
+		return "consulta-alumnos";
+	}
+	
+	
+	
+	@PostMapping("/alta-alumno")
+	public String altaDeAlumno(@RequestParam Integer legajo, @RequestParam String nombre, @RequestParam Integer edad) {
+		
+		Alumno unAlumno = new Alumno(legajo, nombre,edad);
+		
+		alumnoService.save(unAlumno);
+		
+		return "redirect:/alumnos/consultar-alumnos";
+	}
+	
+	
+	
 }
