@@ -2,6 +2,8 @@ package com.educacionit.clase_41.service.impl;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -12,6 +14,7 @@ import com.educacionit.clase_41.service.AlumnoService;
 
 @Service("alumnoService")
 public class AlumnoServiceImpl implements AlumnoService {
+    private static final Logger logger = LoggerFactory.getLogger(AlumnoServiceImpl.class);
 
     @Autowired
     @Qualifier("alumnoRepository")
@@ -29,6 +32,7 @@ public class AlumnoServiceImpl implements AlumnoService {
 
     @Override
     public void addAlumno(Alumno alumno) {
+        logger.info("Agregar alumno con nombre {}: . Toda la clase {}", alumno.getNombre(),alumno);
         alumnoRepository.save(alumno);
     }
 

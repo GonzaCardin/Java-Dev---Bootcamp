@@ -2,6 +2,8 @@ package com.educacionit.clase_41.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
@@ -22,6 +24,7 @@ import com.educacionit.clase_41.service.AlumnoService;
 @RequestMapping("/alumnos")
 public class AlumnoController {
 
+    private static final Logger logger = LoggerFactory.getLogger(AlumnoController.class);
     @Autowired
     @Qualifier("alumnoService")
     private AlumnoService alumnoService;
@@ -40,6 +43,16 @@ public class AlumnoController {
         if (unAlumno == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+        
+        //Logger con sus nivels de prioridad de abajo hacia arriba
+        
+        // logger.trace("Consulta por id de alumno: {}. Respuesta: {} {}",legajo,unAlumno,". Fin log");
+        // logger.debug("Consulta por id de alumno: {}. Respuesta: {} {}",legajo,unAlumno,". Fin log");
+        logger.info("Consulta por id de alumno: {}. Respuesta: {} {}",legajo,unAlumno,". Fin log"); //Info de monitoreo
+        // logger.info(unAlumno.toString());
+        // logger.warn("Se produjo un error. ",new Exception("Error"));
+        logger.error("Se produjo un error. ",new Exception("Error")); //Guardar la info dentro del try
+
 
         return new ResponseEntity<>(unAlumno, HttpStatus.OK);
     }
