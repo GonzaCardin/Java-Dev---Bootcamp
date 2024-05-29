@@ -147,3 +147,100 @@ ARCHIVO-FILE-10:02:38.219 [main] INFO  c.e.clase_41.Clase41Application - Started
 ARCHIVO-FILE-10:02:40.437 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ARCHIVO-FILE-10:02:40.437 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 ARCHIVO-FILE-10:02:40.439 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+ARCHIVO-FILE-17:13:01.102 [main] INFO  c.e.clase_41.Clase41Application - Starting Clase41Application using Java 17.0.11 with PID 16608 (C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41\target\classes started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-17:13:01.106 [main] INFO  c.e.clase_41.Clase41Application - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-17:13:02.357 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ARCHIVO-FILE-17:13:02.370 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ARCHIVO-FILE-17:13:02.375 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ARCHIVO-FILE-17:13:02.378 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+ARCHIVO-FILE-17:13:02.463 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ARCHIVO-FILE-17:13:02.471 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1292 ms
+ARCHIVO-FILE-17:13:03.108 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ARCHIVO-FILE-17:13:03.154 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ARCHIVO-FILE-17:13:03.167 [main] INFO  c.e.clase_41.Clase41Application - Started Clase41Application in 2.496 seconds (process running for 3.337)
+ARCHIVO-FILE-17:13:55.239 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ARCHIVO-FILE-17:13:55.241 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ARCHIVO-FILE-17:13:55.243 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-17:29:22.919 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.Clase41ApplicationTests]: Clase41ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-17:29:23.070 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.Clase41ApplicationTests
+ARCHIVO-FILE-17:29:23.706 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Starting Clase41ApplicationTests using Java 22.0.1 with PID 14636 (started by gonza in c:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-17:29:23.708 [main] INFO  c.e.clase_41.Clase41ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-17:29:25.508 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Started Clase41ApplicationTests in 2.28 seconds (process running for 3.558)
+ARCHIVO-FILE-17:30:12.282 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.Clase41ApplicationTests]: Clase41ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-17:30:12.424 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.Clase41ApplicationTests
+ARCHIVO-FILE-17:30:13.079 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Starting Clase41ApplicationTests using Java 22.0.1 with PID 14984 (started by gonza in c:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-17:30:13.081 [main] INFO  c.e.clase_41.Clase41ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-17:30:14.836 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Started Clase41ApplicationTests in 2.243 seconds (process running for 3.526)
+ARCHIVO-FILE-17:31:07.851 [main] INFO  c.e.clase_41.Clase41Application - Starting Clase41Application using Java 17.0.11 with PID 23528 (C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41\target\classes started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-17:31:07.854 [main] INFO  c.e.clase_41.Clase41Application - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-17:31:09.109 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ARCHIVO-FILE-17:31:09.122 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ARCHIVO-FILE-17:31:09.126 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ARCHIVO-FILE-17:31:09.127 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+ARCHIVO-FILE-17:31:09.204 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ARCHIVO-FILE-17:31:09.208 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1269 ms
+ARCHIVO-FILE-17:31:09.836 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ARCHIVO-FILE-17:31:09.862 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ARCHIVO-FILE-17:31:09.877 [main] INFO  c.e.clase_41.Clase41Application - Started Clase41Application in 2.478 seconds (process running for 3.266)
+ARCHIVO-FILE-17:31:17.889 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ARCHIVO-FILE-17:31:17.891 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ARCHIVO-FILE-17:31:17.893 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-17:40:09.881 [http-nio-8080-exec-10] INFO  c.e.c.service.impl.AlumnoServiceImpl - Agregar alumno con nombre Nombre del alumno: . Toda la clase Alumno [legajo=123, nombre=Nombre del alumno, edad=20]
+ARCHIVO-FILE-17:40:14.451 [http-nio-8080-exec-5] INFO  c.e.c.service.impl.AlumnoServiceImpl - Agregar alumno con nombre Nombre del alumno: . Toda la clase Alumno [legajo=1234, nombre=Nombre del alumno, edad=20]
+ARCHIVO-FILE-17:40:18.218 [http-nio-8080-exec-9] INFO  c.e.c.service.impl.AlumnoServiceImpl - Agregar alumno con nombre Nombre del alumno: . Toda la clase Alumno [legajo=12345, nombre=Nombre del alumno, edad=20]
+ARCHIVO-FILE-18:16:45.074 [main] INFO  c.e.clase_41.Clase41Application - Starting Clase41Application using Java 17.0.11 with PID 20096 (C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41\target\classes started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-18:16:45.077 [main] INFO  c.e.clase_41.Clase41Application - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-18:17:03.527 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.Clase41ApplicationTests]: Clase41ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-18:17:03.703 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.Clase41ApplicationTests
+ARCHIVO-FILE-18:17:04.327 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Starting Clase41ApplicationTests using Java 22.0.1 with PID 24824 (started by gonza in c:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-18:17:04.329 [main] INFO  c.e.clase_41.Clase41ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-18:17:06.268 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Started Clase41ApplicationTests in 2.383 seconds (process running for 3.875)
+ARCHIVO-FILE-18:17:17.000 [main] INFO  c.e.clase_41.Clase41Application - Starting Clase41Application using Java 17.0.11 with PID 11536 (C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41\target\classes started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-18:17:17.003 [main] INFO  c.e.clase_41.Clase41Application - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-18:17:18.338 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ARCHIVO-FILE-18:17:18.353 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ARCHIVO-FILE-18:17:18.361 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ARCHIVO-FILE-18:17:18.362 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+ARCHIVO-FILE-18:17:18.437 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ARCHIVO-FILE-18:17:18.439 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1370 ms
+ARCHIVO-FILE-18:17:19.196 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ARCHIVO-FILE-18:17:19.224 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ARCHIVO-FILE-18:17:19.247 [main] INFO  c.e.clase_41.Clase41Application - Started Clase41Application in 2.684 seconds (process running for 3.495)
+ARCHIVO-FILE-18:17:46.014 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ARCHIVO-FILE-18:17:46.015 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ARCHIVO-FILE-18:17:46.017 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-18:17:46.140 [http-nio-8080-exec-3] INFO  c.e.c.service.impl.AlumnoServiceImpl - Agregar alumno con nombre Nombre del alumno: . Toda la clase Alumno [legajo=123, nombre=Nombre del alumno, edad=20]
+ARCHIVO-FILE-18:17:51.026 [http-nio-8080-exec-4] INFO  c.e.c.service.impl.AlumnoServiceImpl - Agregar alumno con nombre Nombre del alumno: . Toda la clase Alumno [legajo=1234, nombre=Nombre del alumno, edad=20]
+ARCHIVO-FILE-18:17:55.830 [http-nio-8080-exec-6] INFO  c.e.c.service.impl.AlumnoServiceImpl - Agregar alumno con nombre Nombre del alumno: . Toda la clase Alumno [legajo=12345, nombre=Nombre del alumno, edad=20]
+ARCHIVO-FILE-18:31:09.573 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.Clase41ApplicationTests]: Clase41ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-18:31:09.731 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.Clase41ApplicationTests
+ARCHIVO-FILE-18:31:10.314 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Starting Clase41ApplicationTests using Java 22.0.1 with PID 11532 (started by gonza in c:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-18:31:10.315 [main] INFO  c.e.clase_41.Clase41ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-18:31:12.138 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Started Clase41ApplicationTests in 2.24 seconds (process running for 3.682)
+ARCHIVO-FILE-18:31:36.236 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.Clase41ApplicationTests]: Clase41ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-18:31:36.397 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.Clase41ApplicationTests
+ARCHIVO-FILE-18:31:36.987 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Starting Clase41ApplicationTests using Java 22.0.1 with PID 14404 (started by gonza in c:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-18:31:36.989 [main] INFO  c.e.clase_41.Clase41ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-18:31:38.820 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Started Clase41ApplicationTests in 2.233 seconds (process running for 3.633)
+ARCHIVO-FILE-18:31:49.969 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.Clase41ApplicationTests]: Clase41ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-18:31:50.100 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.Clase41ApplicationTests
+ARCHIVO-FILE-18:31:50.746 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Starting Clase41ApplicationTests using Java 22.0.1 with PID 23168 (started by gonza in c:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-18:31:50.749 [main] INFO  c.e.clase_41.Clase41ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-18:31:52.634 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Started Clase41ApplicationTests in 2.357 seconds (process running for 3.791)
+ARCHIVO-FILE-18:36:28.918 [main] INFO  c.e.clase_41.Clase41Application - Starting Clase41Application using Java 17.0.11 with PID 14628 (C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41\target\classes started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-18:36:28.921 [main] INFO  c.e.clase_41.Clase41Application - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-18:36:30.433 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+ARCHIVO-FILE-18:36:30.448 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+ARCHIVO-FILE-18:36:30.451 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ARCHIVO-FILE-18:36:30.452 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+ARCHIVO-FILE-18:36:30.527 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ARCHIVO-FILE-18:36:30.529 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1541 ms
+ARCHIVO-FILE-18:36:31.123 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+ARCHIVO-FILE-18:36:31.145 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+ARCHIVO-FILE-18:36:31.168 [main] INFO  c.e.clase_41.Clase41Application - Started Clase41Application in 2.71 seconds (process running for 3.554)
+ARCHIVO-FILE-18:37:02.000 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ARCHIVO-FILE-18:37:02.001 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ARCHIVO-FILE-18:37:02.005 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+ARCHIVO-FILE-18:37:02.137 [http-nio-8081-exec-2] INFO  c.e.c.service.impl.AlumnoServiceImpl - Agregar alumno con nombre Nombre del alumno: . Toda la clase Alumno [legajo=123, nombre=Nombre del alumno, edad=20]
+ARCHIVO-FILE-18:37:06.856 [http-nio-8081-exec-4] INFO  c.e.c.service.impl.AlumnoServiceImpl - Agregar alumno con nombre Nombre del alumno: . Toda la clase Alumno [legajo=1234, nombre=Nombre del alumno, edad=20]
+ARCHIVO-FILE-18:37:11.095 [http-nio-8081-exec-1] INFO  c.e.c.service.impl.AlumnoServiceImpl - Agregar alumno con nombre Nombre del alumno: . Toda la clase Alumno [legajo=12345, nombre=Nombre del alumno, edad=20]
