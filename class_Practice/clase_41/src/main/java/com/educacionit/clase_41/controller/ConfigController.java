@@ -15,14 +15,11 @@ public class ConfigController {
     private Configuracion appConfig;
 
     @GetMapping("/propiedades")
-    public String getConfig(Model model){
+    public String getConfig(Model model) {
         model.addAttribute("nombre1", appConfig.getNombre_1());
         model.addAttribute("nombre2", appConfig.getNombre_2());
         model.addAttribute("propiedad1", appConfig.getPropiedad1());
         model.addAttribute("propiedad2", appConfig.getPropiedad2());
-        
-
-
         return "mostrar-propiedades";
     }
 

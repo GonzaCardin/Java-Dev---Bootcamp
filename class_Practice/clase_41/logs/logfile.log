@@ -244,3 +244,618 @@ ARCHIVO-FILE-18:37:02.005 [http-nio-8081-exec-2] INFO  o.s.web.servlet.Dispatche
 ARCHIVO-FILE-18:37:02.137 [http-nio-8081-exec-2] INFO  c.e.c.service.impl.AlumnoServiceImpl - Agregar alumno con nombre Nombre del alumno: . Toda la clase Alumno [legajo=123, nombre=Nombre del alumno, edad=20]
 ARCHIVO-FILE-18:37:06.856 [http-nio-8081-exec-4] INFO  c.e.c.service.impl.AlumnoServiceImpl - Agregar alumno con nombre Nombre del alumno: . Toda la clase Alumno [legajo=1234, nombre=Nombre del alumno, edad=20]
 ARCHIVO-FILE-18:37:11.095 [http-nio-8081-exec-1] INFO  c.e.c.service.impl.AlumnoServiceImpl - Agregar alumno con nombre Nombre del alumno: . Toda la clase Alumno [legajo=12345, nombre=Nombre del alumno, edad=20]
+ARCHIVO-FILE-09:00:13.708 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.controller.ConfigControllerTest]: ConfigControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-09:00:13.884 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.controller.ConfigControllerTest
+ARCHIVO-FILE-09:00:14.394 [main] INFO  c.e.c.c.ConfigControllerTest - Starting ConfigControllerTest using Java 17.0.11 with PID 13584 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-09:00:14.396 [main] INFO  c.e.c.c.ConfigControllerTest - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-09:00:17.114 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-09:00:17.115 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-09:00:17.118 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-09:00:17.163 [main] INFO  c.e.c.c.ConfigControllerTest - Started ConfigControllerTest in 3.075 seconds (process running for 4.531)
+ARCHIVO-FILE-09:00:43.661 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.controller.ConfigControllerTest]: ConfigControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-09:00:43.841 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.controller.ConfigControllerTest
+ARCHIVO-FILE-09:00:44.383 [main] INFO  c.e.c.c.ConfigControllerTest - Starting ConfigControllerTest using Java 17.0.11 with PID 10452 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-09:00:44.385 [main] INFO  c.e.c.c.ConfigControllerTest - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-09:00:46.748 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-09:00:46.748 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-09:00:46.752 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+ARCHIVO-FILE-09:00:46.810 [main] INFO  c.e.c.c.ConfigControllerTest - Started ConfigControllerTest in 2.782 seconds (process running for 4.353)
+ARCHIVO-FILE-09:02:16.811 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.controller.ConfigControllerTest]: ConfigControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-09:02:17.425 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.controller.ConfigControllerTest
+ARCHIVO-FILE-09:02:18.460 [main] INFO  c.e.c.c.ConfigControllerTest - Starting ConfigControllerTest using Java 17.0.11 with PID 22136 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-09:02:18.461 [main] INFO  c.e.c.c.ConfigControllerTest - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-09:02:21.103 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-09:02:21.103 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-09:02:21.107 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-09:02:21.162 [main] INFO  c.e.c.c.ConfigControllerTest - Started ConfigControllerTest in 3.284 seconds (process running for 7.053)
+ARCHIVO-FILE-09:13:09.986 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.controller.ConfigControllerTest]: ConfigControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-09:13:10.147 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.controller.ConfigControllerTest
+ARCHIVO-FILE-09:13:10.722 [main] INFO  c.e.c.c.ConfigControllerTest - Starting ConfigControllerTest using Java 17.0.11 with PID 17160 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-09:13:10.724 [main] INFO  c.e.c.c.ConfigControllerTest - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-09:13:13.213 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-09:13:13.213 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-09:13:13.217 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-09:13:13.268 [main] INFO  c.e.c.c.ConfigControllerTest - Started ConfigControllerTest in 2.917 seconds (process running for 4.296)
+ARCHIVO-FILE-09:14:11.071 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.controller.ConfigControllerTest]: ConfigControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-09:14:11.468 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.controller.ConfigControllerTest
+ARCHIVO-FILE-09:14:12.612 [main] INFO  c.e.c.c.ConfigControllerTest - Starting ConfigControllerTest using Java 17.0.11 with PID 4520 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-09:14:12.614 [main] INFO  c.e.c.c.ConfigControllerTest - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-09:14:15.078 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-09:14:15.078 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-09:14:15.082 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+ARCHIVO-FILE-09:14:15.141 [main] INFO  c.e.c.c.ConfigControllerTest - Started ConfigControllerTest in 3.107 seconds (process running for 6.634)
+ARCHIVO-FILE-09:15:10.730 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.controller.ConfigControllerTest]: ConfigControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-09:15:11.153 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.controller.ConfigControllerTest
+ARCHIVO-FILE-09:15:12.137 [main] INFO  c.e.c.c.ConfigControllerTest - Starting ConfigControllerTest using Java 17.0.11 with PID 18136 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-09:15:12.140 [main] INFO  c.e.c.c.ConfigControllerTest - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-09:15:14.844 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-09:15:14.844 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-09:15:14.847 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-09:15:14.905 [main] INFO  c.e.c.c.ConfigControllerTest - Started ConfigControllerTest in 3.238 seconds (process running for 6.535)
+ARCHIVO-FILE-09:16:11.103 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.controller.ConfigControllerTest]: ConfigControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-09:16:11.813 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.controller.ConfigControllerTest
+ARCHIVO-FILE-09:16:13.403 [main] INFO  c.e.c.c.ConfigControllerTest - Starting ConfigControllerTest using Java 17.0.11 with PID 3076 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-09:16:13.406 [main] INFO  c.e.c.c.ConfigControllerTest - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-09:16:16.287 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-09:16:16.288 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-09:16:16.293 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+ARCHIVO-FILE-09:16:16.365 [main] INFO  c.e.c.c.ConfigControllerTest - Started ConfigControllerTest in 3.523 seconds (process running for 8.075)
+ARCHIVO-FILE-09:29:01.685 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.controller.ConfigControllerTest]: ConfigControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-09:29:02.155 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.controller.ConfigControllerTest
+ARCHIVO-FILE-09:29:03.218 [main] INFO  c.e.c.c.ConfigControllerTest - Starting ConfigControllerTest using Java 17.0.11 with PID 21672 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-09:29:03.220 [main] INFO  c.e.c.c.ConfigControllerTest - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-09:29:05.830 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-09:29:05.831 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-09:29:05.835 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+ARCHIVO-FILE-09:29:05.898 [main] INFO  c.e.c.c.ConfigControllerTest - Started ConfigControllerTest in 3.227 seconds (process running for 7.128)
+ARCHIVO-FILE-09:46:04.723 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.controller.ConfigControllerTest]: ConfigControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-09:46:05.311 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.controller.ConfigControllerTest
+ARCHIVO-FILE-09:46:06.626 [main] INFO  c.e.c.c.ConfigControllerTest - Starting ConfigControllerTest using Java 17.0.11 with PID 8944 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-09:46:06.628 [main] INFO  c.e.c.c.ConfigControllerTest - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-09:46:09.599 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-09:46:09.599 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-09:46:09.602 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-09:46:09.658 [main] INFO  c.e.c.c.ConfigControllerTest - Started ConfigControllerTest in 3.542 seconds (process running for 7.422)
+ARCHIVO-FILE-09:49:14.853 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.controller.ConfigControllerTest]: ConfigControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-09:49:15.053 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.controller.ConfigControllerTest
+ARCHIVO-FILE-09:49:15.599 [main] INFO  c.e.c.c.ConfigControllerTest - Starting ConfigControllerTest using Java 17.0.11 with PID 12432 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-09:49:15.600 [main] INFO  c.e.c.c.ConfigControllerTest - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-09:49:18.112 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-09:49:18.112 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-09:49:18.115 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-09:49:18.176 [main] INFO  c.e.c.c.ConfigControllerTest - Started ConfigControllerTest in 2.926 seconds (process running for 4.426)
+ARCHIVO-FILE-09:49:20.228 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-09:49:20.228 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-09:49:20.230 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+ARCHIVO-FILE-09:49:20.301 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.Clase41ApplicationTests]: Clase41ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-09:49:20.329 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.Clase41ApplicationTests
+ARCHIVO-FILE-09:49:20.425 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Starting Clase41ApplicationTests using Java 17.0.11 with PID 12432 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-09:49:20.426 [main] INFO  c.e.clase_41.Clase41ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-09:49:21.157 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Started Clase41ApplicationTests in 0.815 seconds (process running for 7.407)
+ARCHIVO-FILE-10:20:52.861 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.Clase41ApplicationTests]: Clase41ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-10:20:52.990 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.Clase41ApplicationTests
+ARCHIVO-FILE-10:20:53.628 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Starting Clase41ApplicationTests using Java 22.0.1 with PID 7360 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-10:20:53.629 [main] INFO  c.e.clase_41.Clase41ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-10:20:55.601 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Started Clase41ApplicationTests in 2.446 seconds (process running for 3.798)
+ARCHIVO-FILE-10:20:56.657 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.controller.ConfigControllerTest]: ConfigControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-10:20:56.701 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.controller.ConfigControllerTest
+ARCHIVO-FILE-10:20:56.770 [main] INFO  c.e.c.c.ConfigControllerTest - Starting ConfigControllerTest using Java 22.0.1 with PID 7360 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-10:20:56.770 [main] INFO  c.e.c.c.ConfigControllerTest - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-10:20:57.185 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-10:20:57.186 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-10:20:57.190 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-10:20:57.207 [main] INFO  c.e.c.c.ConfigControllerTest - Started ConfigControllerTest in 0.494 seconds (process running for 5.403)
+ARCHIVO-FILE-10:22:03.685 [main] INFO  c.e.clase_41.Clase41Application - Starting Clase41Application using Java 17.0.11 with PID 16140 (C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41\target\classes started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-10:22:03.688 [main] INFO  c.e.clase_41.Clase41Application - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-10:22:05.249 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+ARCHIVO-FILE-10:22:05.262 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+ARCHIVO-FILE-10:22:05.266 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ARCHIVO-FILE-10:22:05.267 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+ARCHIVO-FILE-10:22:05.341 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ARCHIVO-FILE-10:22:05.344 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1584 ms
+ARCHIVO-FILE-10:22:06.084 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+ARCHIVO-FILE-10:22:06.110 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+ARCHIVO-FILE-10:22:06.124 [main] INFO  c.e.clase_41.Clase41Application - Started Clase41Application in 3.001 seconds (process running for 3.827)
+ARCHIVO-FILE-10:23:11.059 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ARCHIVO-FILE-10:23:11.061 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ARCHIVO-FILE-10:23:11.063 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+ARCHIVO-FILE-11:00:28.961 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:00:28.964 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:00:28.975 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 8 ms
+ARCHIVO-FILE-11:00:29.034 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:00:29.035 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:00:29.035 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+ARCHIVO-FILE-11:00:29.057 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:00:29.058 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:00:29.058 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+ARCHIVO-FILE-11:00:29.077 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:00:29.077 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:00:29.078 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-11:00:29.097 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:00:29.098 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:00:29.098 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+ARCHIVO-FILE-11:00:29.213 [main] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /alumnos
+ARCHIVO-FILE-11:00:29.226 [main] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /alumnos.
+ARCHIVO-FILE-11:00:29.463 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:00:29.464 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:00:29.465 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+ARCHIVO-FILE-11:00:30.019 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.controller.ConfigControllerTest]: ConfigControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-11:00:30.579 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.controller.ConfigControllerTest
+ARCHIVO-FILE-11:00:32.454 [main] INFO  c.e.c.c.ConfigControllerTest - Starting ConfigControllerTest using Java 17.0.11 with PID 18268 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-11:00:32.460 [main] INFO  c.e.c.c.ConfigControllerTest - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-11:00:35.092 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:00:35.093 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:00:35.095 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+ARCHIVO-FILE-11:00:35.160 [main] INFO  c.e.c.c.ConfigControllerTest - Started ConfigControllerTest in 3.966 seconds (process running for 14.239)
+ARCHIVO-FILE-11:01:36.123 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:01:36.125 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:01:36.135 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 6 ms
+ARCHIVO-FILE-11:01:36.196 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:01:36.196 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:01:36.197 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+ARCHIVO-FILE-11:01:36.222 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:01:36.223 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:01:36.223 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+ARCHIVO-FILE-11:01:36.251 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:01:36.251 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:01:36.252 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-11:01:36.270 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:01:36.270 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:01:36.271 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-11:01:36.776 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:01:36.777 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:01:36.777 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+ARCHIVO-FILE-11:01:37.281 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.controller.ConfigControllerTest]: ConfigControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-11:01:38.118 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.controller.ConfigControllerTest
+ARCHIVO-FILE-11:01:40.334 [main] INFO  c.e.c.c.ConfigControllerTest - Starting ConfigControllerTest using Java 17.0.11 with PID 11636 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-11:01:40.341 [main] INFO  c.e.c.c.ConfigControllerTest - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-11:01:42.884 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:01:42.885 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:01:42.886 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-11:01:42.953 [main] INFO  c.e.c.c.ConfigControllerTest - Started ConfigControllerTest in 4.096 seconds (process running for 14.027)
+ARCHIVO-FILE-11:01:43.547 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.educacionit.clase_41.Clase41ApplicationTests]: Clase41ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ARCHIVO-FILE-11:01:43.559 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.educacionit.clase_41.Clase41Application for test class com.educacionit.clase_41.Clase41ApplicationTests
+ARCHIVO-FILE-11:01:43.619 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Starting Clase41ApplicationTests using Java 17.0.11 with PID 11636 (started by gonza in C:\Users\gonza\Documents\Repositorios_Clonados\Java-Dev---Bootcamp\class_Practice\clase_41)
+ARCHIVO-FILE-11:01:43.620 [main] INFO  c.e.clase_41.Clase41ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-11:01:44.113 [main] INFO  c.e.clase_41.Clase41ApplicationTests - Started Clase41ApplicationTests in 0.547 seconds (process running for 15.187)
+ARCHIVO-FILE-11:01:57.591 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:01:57.593 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:01:57.601 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+ARCHIVO-FILE-11:12:35.159 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:12:35.162 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:12:35.175 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 7 ms
+ARCHIVO-FILE-11:12:35.381 [main] INFO  c.e.c.controller.AlumnoController - Consulta por id de alumno: 1000. Respuesta: Alumno [legajo=1000, nombre=Rogelio, edad=51] . Fin log
+ARCHIVO-FILE-11:12:35.385 [main] ERROR c.e.c.controller.AlumnoController - Se produjo un error. 
+java.lang.Exception: Error
+	at com.educacionit.clase_41.controller.AlumnoController.getAlumnoById(AlumnoController.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)
+	at com.educacionit.clase_41.controller.AlumnoControllerTest.testGetAlumnoById(AlumnoControllerTest.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:757)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+ARCHIVO-FILE-11:14:31.135 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:14:31.138 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:14:31.149 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 7 ms
+ARCHIVO-FILE-11:14:31.356 [main] INFO  c.e.c.controller.AlumnoController - Consulta por id de alumno: 1000. Respuesta: Alumno [legajo=1000, nombre=Rogelio, edad=51] . Fin log
+ARCHIVO-FILE-11:14:31.358 [main] ERROR c.e.c.controller.AlumnoController - Se produjo un error. 
+java.lang.Exception: Error
+	at com.educacionit.clase_41.controller.AlumnoController.getAlumnoById(AlumnoController.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)
+	at com.educacionit.clase_41.controller.AlumnoControllerTest.testGetAlumnoById(AlumnoControllerTest.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:757)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+ARCHIVO-FILE-11:23:44.855 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:23:44.857 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:23:44.866 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 6 ms
+ARCHIVO-FILE-11:23:45.073 [main] INFO  c.e.c.controller.AlumnoController - Consulta por id de alumno: 1000. Respuesta: Alumno [legajo=1000, nombre=Rogelio, edad=51] . Fin log
+ARCHIVO-FILE-11:23:45.077 [main] ERROR c.e.c.controller.AlumnoController - Se produjo un error. 
+java.lang.Exception: Error
+	at com.educacionit.clase_41.controller.AlumnoController.getAlumnoById(AlumnoController.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)
+	at com.educacionit.clase_41.controller.AlumnoControllerTest.testGetAlumnoByIdOk(AlumnoControllerTest.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:757)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+ARCHIVO-FILE-11:23:45.346 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:23:45.346 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:23:45.347 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+ARCHIVO-FILE-11:23:45.370 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:23:45.371 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:23:45.371 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+ARCHIVO-FILE-11:23:45.391 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:23:45.392 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:23:45.392 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+ARCHIVO-FILE-11:23:45.420 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:23:45.422 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:23:45.422 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+ARCHIVO-FILE-11:23:45.499 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:23:45.500 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:23:45.500 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+ARCHIVO-FILE-11:25:00.349 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:25:00.356 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:25:00.380 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 17 ms
+ARCHIVO-FILE-11:25:45.376 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:25:45.380 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:25:45.391 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 8 ms
+ARCHIVO-FILE-11:45:41.336 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:45:41.338 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:45:41.351 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 8 ms
+ARCHIVO-FILE-11:50:02.696 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:50:02.698 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:50:02.708 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 7 ms
+ARCHIVO-FILE-11:53:05.249 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:53:05.252 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:53:05.263 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 7 ms
+ARCHIVO-FILE-11:53:05.480 [main] INFO  c.e.c.controller.AlumnoController - Consulta por id de alumno: 1000. Respuesta: Alumno [legajo=1000, nombre=Rogelio, edad=51] . Fin log
+ARCHIVO-FILE-11:53:05.484 [main] ERROR c.e.c.controller.AlumnoController - Se produjo un error. 
+java.lang.Exception: Error
+	at com.educacionit.clase_41.controller.AlumnoController.getAlumnoById(AlumnoController.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)
+	at com.educacionit.clase_41.controller.AlumnoControllerTest.testGetAlumnoByIdOk(AlumnoControllerTest.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:757)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+ARCHIVO-FILE-11:53:05.830 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:53:05.830 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:53:05.831 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-11:53:06.056 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:53:06.057 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:53:06.057 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+ARCHIVO-FILE-11:53:06.085 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:53:06.085 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:53:06.086 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+ARCHIVO-FILE-11:53:06.113 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:53:06.113 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:53:06.114 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+ARCHIVO-FILE-11:53:06.133 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+ARCHIVO-FILE-11:53:06.133 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+ARCHIVO-FILE-11:53:06.133 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms

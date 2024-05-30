@@ -6,6 +6,13 @@ public class Alumno {
     private Integer edad;
     public Alumno() {
     }
+    
+    public Alumno(Integer legajo, String nombre, Integer edad) {
+        this.legajo = legajo;
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
     public Integer getLegajo() {
         return legajo;
     }
