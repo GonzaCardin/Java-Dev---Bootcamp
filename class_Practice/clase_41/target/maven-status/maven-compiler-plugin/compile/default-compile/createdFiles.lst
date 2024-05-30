@@ -1,0 +1,12 @@
+com\educacionit\clase_41\singleton\MainSingleton.class
+com\educacionit\clase_41\controller\ConfigController.class
+com\educacionit\clase_41\controller\AlumnoController.class
+com\educacionit\clase_41\repository\AlumnoRepository.class
+com\educacionit\clase_41\config\Configuracion.class
+com\educacionit\clase_41\service\impl\AlumnoServiceImpl.class
+com\educacionit\clase_41\config\WebConfig.class
+com\educacionit\clase_41\model\Alumno.class
+com\educacionit\clase_41\repository\impl\AlumnoRepositoryImpl.class
+com\educacionit\clase_41\singleton\Singleton.class
+com\educacionit\clase_41\service\AlumnoService.class
+com\educacionit\clase_41\Clase41Application.class

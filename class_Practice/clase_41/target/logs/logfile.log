@@ -1,0 +1,11 @@
+ARCHIVO-FILE-17:57:51.216 [main] INFO  c.e.clase_41.Clase41Application - Starting Clase41Application v0.0.1-SNAPSHOT using Java 22.0.1 with PID 18180 (C:\Users\gonza\OneDrive\BootCamp Java Developer\Repositorios\class_Practice\clase_41\target\clase_41-0.0.1-SNAPSHOT.jar started by gonza in C:\Users\gonza\OneDrive\BootCamp Java Developer\Repositorios\class_Practice\clase_41\target)
+ARCHIVO-FILE-17:57:51.221 [main] INFO  c.e.clase_41.Clase41Application - No active profile set, falling back to 1 default profile: "default"
+ARCHIVO-FILE-17:57:52.285 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+ARCHIVO-FILE-17:57:52.299 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+ARCHIVO-FILE-17:57:52.303 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ARCHIVO-FILE-17:57:52.303 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+ARCHIVO-FILE-17:57:52.343 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ARCHIVO-FILE-17:57:52.346 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1043 ms
+ARCHIVO-FILE-17:57:52.724 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+ARCHIVO-FILE-17:57:52.751 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+ARCHIVO-FILE-17:57:52.775 [main] INFO  c.e.clase_41.Clase41Application - Started Clase41Application in 2.016 seconds (process running for 2.652)

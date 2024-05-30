@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Clase41Application<clase_41>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.educacionit.clase_41.Clase41Application",
+            "projectName": "clase_41",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
