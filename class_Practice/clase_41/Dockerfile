@@ -1,11 +1,9 @@
-FROM eclipse-temurin:17-alpine
-
-RUN mkdir /app
-
-WORKDIR /app
-
-COPY target/clase_41-0.0.1-SNAPSHOT.jar /app/clase_41-0.0.1-SNAPSHOT.jar
-
+FROM maven:3.8.5-openjdk-17 AS build
+COPY . .
+RUN mvn clean package -DskipTests
+FROM openjdk:17.0.1-jdk-slim
+#VOLUME /tmp
+COPY --from=build /target/clase-42-2-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8080
+ENTRYPOINT ["java","-jar","app.jar"]
 
-CMD ["java", "-jar", "clase_41-0.0.1-SNAPSHOT.jar"]
