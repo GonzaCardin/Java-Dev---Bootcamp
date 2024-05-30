@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "clase_41"
+		},
+		{
+			"path": "clase_43"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "clase_43",
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}

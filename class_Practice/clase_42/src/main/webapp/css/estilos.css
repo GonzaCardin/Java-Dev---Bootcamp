@@ -1,0 +1,20 @@
+main {
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 300px; */
+}
+
+#uno {
+    background-color: red;
+    width: 250px;
+}
+
+#dos {
+    background-color: blue;
+    width: 250px;
+}
+
+#tres {
+    background-color: green;
+    width: 250px;
+}

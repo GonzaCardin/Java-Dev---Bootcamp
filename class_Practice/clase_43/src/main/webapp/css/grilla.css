@@ -1,0 +1,10 @@
+.header-grilla{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.grid-item{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    border: 1px solid #ccc;
+}
