@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Calculadora de Presupuesto</h1>
+        <label for="ingreso">Monto de Ingresos:</label>
+        <input type="number" id="ingreso" placeholder="Ingrese sus ingresos" required min="0"><br><br>
+        <div id="categorias">
+            <div class="categoria">
+                <input type="text" placeholder="Ingrese el nombre de la categoría:" value="Gastos">
+                <input type="number" placeholder="Ingrese el porcentaje:" value="50">
+                <button onclick="eliminarCategoria(this)">Eliminar Categoría</button><br>
+            </div>
+            <div class="categoria">
+                <input type="text" placeholder="Ingrese el nombre de la categoría" value="Ahorro">
+                <input type="number" placeholder="Ingrese el porcentaje:" value="30">
+                <button onclick="eliminarCategoria(this)">Eliminar Categoría</button><br>
+            </div>
+            <div class="categoria">
+                <input type="text" placeholder="Ingrese el nombre de la categoría" value="Inversión">
+                <input type="number" placeholder="Ingrese el porcentaje:" value="20">
+                <button onclick="eliminarCategoria(this)">Eliminar Categoría</button><br>
+            </div>
+        </div>
+        <button onclick="agregarCategoria()">Agregar Categoría</button>
+        <button onclick="calcularPresupuesto()">Calcular Presupuesto</button>
+        <div id="resultado" class="resultado"></div>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
