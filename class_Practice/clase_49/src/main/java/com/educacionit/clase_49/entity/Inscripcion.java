@@ -1,6 +1,5 @@
 package com.educacionit.clase_49.entity;
 
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -20,7 +19,8 @@ public class Inscripcion {
     @JoinColumn(name = "id_alumno")
     private Alumno alumno;
 
-    @ManyToOne
+    // @OneToMany necesita en la entidad base de una colección
+    @ManyToOne // es una única entidad base
     @JoinColumn(name = "id_curso")
     private Curso curso;
 
@@ -57,7 +57,4 @@ public class Inscripcion {
         this.curso = curso;
     }
 
-    
-
-    
 }
