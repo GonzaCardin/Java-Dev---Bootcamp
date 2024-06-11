@@ -23,7 +23,8 @@ public class Author {
     @Column(name = "name", length = 255, nullable = false)
     private String name;
 
-    @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    
+    @OneToMany(mappedBy = "author", cascade = CascadeType.ALL,orphanRemoval = true, fetch = FetchType.LAZY)
     private List<Book> books;
 
     public Author() {
