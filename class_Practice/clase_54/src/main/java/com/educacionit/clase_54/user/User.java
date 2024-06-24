@@ -1,7 +1,7 @@
 package com.educacionit.clase_54.user;
 
+import java.util.Arrays;
 import java.util.Collection;
-import java.util.List;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -95,7 +95,7 @@ public class User implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return List.of(new SimpleGrantedAuthority(role.name()));
+        return Arrays.asList(new SimpleGrantedAuthority(role.name()));
     }
 
     @Override
