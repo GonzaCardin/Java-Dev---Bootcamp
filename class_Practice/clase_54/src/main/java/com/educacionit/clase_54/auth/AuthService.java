@@ -20,9 +20,9 @@ public class AuthService {
     public AuthResponse register(RegisterRequest req) {
         User user = new User();
 
-        user.setUserName(req.getUserName());
-        user.setFirstName(req.getFirstName());
-        user.setLastName(req.getLastName());
+        user.setUsername(req.getUserName());
+        user.setFirstname(req.getFirstName());
+        user.setLastname(req.getLastName());
         user.setCountry(req.getCountry());
         user.setPassword(req.getPassword());
         user.setRole(Role.ADMIN);

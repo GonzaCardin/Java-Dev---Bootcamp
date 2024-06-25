@@ -17,18 +17,18 @@ import jakarta.persistence.Table;
 import jakarta.persistence.UniqueConstraint;
 
 @Entity
-@Table(name = "user", uniqueConstraints = @UniqueConstraint(columnNames = { "userName" }))
+@Table(name = "user", uniqueConstraints = @UniqueConstraint(columnNames = { "username" }))
 public class User implements UserDetails {
     @Id
     @GeneratedValue
     private Integer id;
 
     @Column(nullable = false)
-    private String userName;
+    private String username;
 
     private String password;
-    private String firstName;
-    private String lastName;
+    private String firstname;
+    private String lastname;
     private String country;
 
     @Enumerated(EnumType.STRING)
@@ -45,12 +45,12 @@ public class User implements UserDetails {
         this.id = id;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
@@ -61,20 +61,20 @@ public class User implements UserDetails {
         this.password = password;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getFirstname() {
+        return firstname;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getLastname() {
+        return lastname;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
     }
 
     public String getCountry() {
@@ -99,29 +99,23 @@ public class User implements UserDetails {
     }
 
     @Override
-    public String getUsername() {
-        return userName;
-    }
-
-    @Override
     public boolean isAccountNonExpired() {
-        return Boolean.TRUE;
+        return true;
     }
 
     @Override
     public boolean isAccountNonLocked() {
-        return Boolean.TRUE;
+        return true;
     }
 
     @Override
     public boolean isCredentialsNonExpired() {
-        return Boolean.TRUE;
+        return true;
     }
 
     @Override
     public boolean isEnabled() {
-        return Boolean.TRUE;
+        return true;
     }
 
-    
 }
