@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="persona, indice: ${personas}">
+                <td th:text="${persona.nombre}"></td>
+                <td th:text="${persona.edad}"></td>
+                <td>
+                    <a href="@/delete/{indice}">Eliminar</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
